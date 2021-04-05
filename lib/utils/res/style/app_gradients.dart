@@ -10,4 +10,25 @@ class AppGradient {
       ],
     );
   }
+
+  static LinearGradient get musicGradient {
+    return LinearGradient(
+      colors: [
+        Color(0xFFFFB7F8),
+        Color(0xFFFB5734),
+      ],
+    );
+  }
+
+  static LinearGradient get visaGradient {
+    return LinearGradient(
+      colors: [
+        Color(0xFF8391C6),
+        Color(0xFF49568C),
+        Color(0xFF272E4C),
+      ],
+      begin: Alignment.topLeft,
+      end: Alignment.bottomRight
+    );
+  }
 }

@@ -15,7 +15,7 @@ export './app_settings.dart';
 export './assets/images.dart';
 export './assets/icons/bottom_bar_icons.dart';
 
-export './style/default_colors.dart';
+export './style/app_colors.dart';
 export './style/app_shadows.dart';
 export './style/app_gradients.dart';
 
